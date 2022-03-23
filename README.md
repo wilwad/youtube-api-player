@@ -21,3 +21,5 @@ var videos = [
             ]
 ```
 The videos play one after the other when the ended event fires.
+
+Note: some video uploaders prevent videos from playing outside Youtube, so don't add them to your list.
