@@ -18,7 +18,8 @@
     <script>
      var videos = [
                     <?php
-                            $handle = fopen("data/songs.txt", "r");
+                            $videos = "data/videos.txt";
+                            $handle = fopen( $videos , "r");
                             if ($handle) {
                                 while (($line = fgets($handle)) !== false) {
                                     $line = trim($line);
