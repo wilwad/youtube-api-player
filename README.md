@@ -8,8 +8,11 @@ title -- youtube URL
 They are parsed by PHP into a video object:
 ```
 var videos [
-             {title: "SNAP! - The Power (Official Video)", url: " https://www.youtube.com/watch?v=nm6DO_7px1I", id: "nm6DO_7px1I"},
-             {title: "Pet Shop Boys - Suburbia", url: "https://www.youtube.com/watch?v=-VCqAjYO3NM", id: "-VCqAjYO3NM"}
+             {title: "SNAP! - The Power (Official Video)", 
+              url: " https://www.youtube.com/watch?v=nm6DO_7px1I", id: "nm6DO_7px1I"},
+              
+             {title: "Pet Shop Boys - Suburbia", 
+              url: "https://www.youtube.com/watch?v=-VCqAjYO3NM", id: "-VCqAjYO3NM"}
             ]
 ```
 The videos play one after the other when the ended event fires.
