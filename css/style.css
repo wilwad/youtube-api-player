@@ -1,0 +1,16 @@
+ul {
+    float:right;
+    height: 80vh;
+    overflow-y: auto;
+}
+li {
+    cursor: pointer;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    list-style: none;
+}
+
+.playing {
+    font-weight: bold;
+    color: blue;
+} 
