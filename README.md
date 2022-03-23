@@ -10,9 +10,9 @@ SNAP! - The Power (Official Video) -- https://www.youtube.com/watch?v=nm6DO_7px1
 Pet Shop Boys - Suburbia -- https://www.youtube.com/watch?v=-VCqAjYO3NM
 ```
 
-They are parsed by PHP into a video object:
+They are parsed by PHP into an array of video objects:
 ```
-var videos [
+var videos = [
              {title: "SNAP! - The Power (Official Video)", 
               url: "https://www.youtube.com/watch?v=nm6DO_7px1I", id: "nm6DO_7px1I"},
               
